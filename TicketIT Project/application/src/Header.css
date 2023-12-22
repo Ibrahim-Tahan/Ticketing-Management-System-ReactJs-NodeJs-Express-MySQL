@@ -1,0 +1,30 @@
+.AppHeader{
+    height: 181px;
+    flex-shrink: 0;
+    background: #FFF;
+    width: 100%;
+}
+
+.AppLogo{
+    width: 400px;
+    height: 126px;
+    background: lightgray 50% / cover no-repeat;
+    margin-top: 38px;
+    margin-left: 123px;
+}
+
+@media screen and (max-width: 600px) {
+    .AppHeader{
+        height: 181px;
+        flex-shrink: 0;
+        background: #FFF;
+        width: auto;
+    }
+    .AppLogo {
+        width: 400px;
+        height: 126px;
+        background: #fff 50% / cover no-repeat;
+        margin-top: 38px; 
+        margin-left: 20px;
+    }
+  }

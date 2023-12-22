@@ -1,0 +1,286 @@
+.WelcomeMessage{
+    height: 200px;
+    background: rgba(197, 252, 249, 0.75);
+}
+
+.WelcomeMessage h1{
+    padding-top: 40px;
+    font-weight: bold;
+    height: 156px;
+    font-family: Arial;
+    font-size: 35px;
+    margin-top: 0;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFF;
+    opacity: 0.90;
+}
+
+.sortBy{
+    float:left;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+li {
+    float: right;   
+    border: 1px solid #FFF;
+    border-left: 1px solid #bbb;
+}
+      
+li:first-child {
+    border-left: none;
+}
+
+
+li a {
+    display: block;
+    color: #000;
+    font-size: 25px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+li a:hover{
+    background-color:  rgba(166, 224, 220, 0.75);
+}
+
+table{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
+td {
+    padding: 15px;
+    text-align:left;
+}
+
+.bottomTbl{
+    padding: 0px;
+}
+
+.table tr:nth-child(even){
+    background-color: #FFF;
+}
+
+.table tr:hover{
+    background-color:#ADD8B2;
+}
+
+.table thead td, .table thead th {
+    background-color: #FFF;
+}
+
+table, tr, td, th{
+    border: #000 1px solid;
+    border-collapse: collapse;
+}
+
+.viewBtn{
+    width: 75px;
+    height: 37px;
+    background: #A3FF94;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #000;
+}
+
+.deleteBtn{
+    width: 75px;
+    height: 37px;
+    background:#CC0202;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 0px;
+}
+
+.Modal{   
+    margin-left: auto;
+    background-color: #FFF;
+    margin-right: auto;
+    padding: 15px;
+}
+
+form{
+    padding-top: 15px;
+    height: auto;
+}
+
+label{
+    font-size: 25px;
+    font-weight: normal;
+    color: #000;
+    justify-content: baseline;
+    width: 50px;
+    height: 40px;
+}
+
+.DataInput{
+    height: 25px;
+    width: 250px;
+    border: solid #E0E0E0 1px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: auto;
+    margin-top: 5px;
+}
+
+.data-parent-container{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    width: 750px;
+    padding: 10px
+}
+
+.data-child-container{
+    width: 300px;
+    background-color: #FFF;
+    margin: 15px;
+    border: 3px solid red;
+    padding: 15px;
+}
+
+.data-child-container p{
+    font-size: 18px;
+    border-top: #000 1px solid;
+}
+.button-holder{
+    margin-top: 15px;
+}
+
+
+.viewBtn-Ticket{
+    width: 75px;
+    height: 37px;
+    background: #A3FF94;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #000;
+    margin: 0;
+}
+ 
+.formTable{
+    margin:auto;
+    border: none;
+    width :40%;
+    box-shadow: none;
+}
+.formTable td {
+    width: 200px;
+    border: none;
+}
+.formTable tr{
+    border: none;
+}
+@media screen and (max-width: 600px) {
+    body{
+        width: auto;
+    }
+    .WelcomeMessage{
+        width: auto;
+        height: auto;
+        padding: 10px;
+    }
+    .WelcomeMessage h1{
+        font-size: 20;
+        margin-bottom: 0;
+    }
+    
+    .WelcomeMessage ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: auto;
+        background-color: #f1f1f1;
+    }
+    
+    .WelcomeMessage li a {
+        display: block;
+        color: #484747;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+
+    .WelcomeMessage li{
+        width: 100%;
+    }
+    
+    ul{
+        width:450px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    ul li{
+        display: block;
+    }
+    table{
+        margin-top: 0px;
+        width: auto;        
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .container{
+        padding: 25px 0;
+    }
+    .button-holder{
+        width: auto;
+        margin-top: 15px;       
+    }
+    .popup-content {
+        background: #fff;
+        width: 60%;
+        padding: 15px;
+        border: 1px solid #d7d7d7;
+    }
+    .data-parent-container{
+        padding: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: inline-block;
+        width: 75%;
+        margin-top: 30px;
+    }
+    .tableContainer {
+        overflow: scroll;
+        width: auto;
+        border: #000 solid 1px;
+        height: 210px;
+    }
+    .table {
+        position: sticky;
+        top: 0;
+        width: 100%;
+    }  
+    .table thead {
+        position: sticky;
+        inset-block-start: 0;
+        background-color: #ddd;
+      }
+}

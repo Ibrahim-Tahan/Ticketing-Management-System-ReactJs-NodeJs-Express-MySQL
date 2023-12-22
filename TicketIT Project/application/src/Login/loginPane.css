@@ -1,0 +1,73 @@
+.usernameInput{
+    margin-top: 75px;
+}
+.usernameInput, .passInput{
+    height: 80px;
+    margin-left: 30%;
+}
+
+label{
+    width: 50px;
+    height: 40px;
+    font-family: Arial;
+    font-size: 25px;
+}
+.form-control{
+    width: 400px;
+    height: 30px;
+    border: solid #E0E0E0 2px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    border: 5px solid white;
+    background: blue ;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.updateBtn{
+   background-Color: yellow;
+    color: black;
+
+}
+.logout{
+    width: 150px;
+    height: 50px;
+    border: 5px solid white;
+    background: red  ;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.createBtn{
+    background-color: #008080;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+.login-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 350px;;
+}
+}
